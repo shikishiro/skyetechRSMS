@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,11 +53,29 @@
     <Compile Include="dashboard.Designer.cs">
       <DependentUpon>dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="dashboardreports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboardreports.Designer.cs">
+      <DependentUpon>dashboardreports.cs</DependentUpon>
+    </Compile>
     <Compile Include="formemergency.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formemergency.Designer.cs">
       <DependentUpon>formemergency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formemergencyreports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formemergencyreports.Designer.cs">
+      <DependentUpon>formemergencyreports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formptvrequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formptvrequest.Designer.cs">
+      <DependentUpon>formptvrequest.cs</DependentUpon>
     </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
@@ -74,8 +93,17 @@
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dashboardreports.resx">
+      <DependentUpon>dashboardreports.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formemergency.resx">
       <DependentUpon>formemergency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formemergencyreports.resx">
+      <DependentUpon>formemergencyreports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formptvrequest.resx">
+      <DependentUpon>formptvrequest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>

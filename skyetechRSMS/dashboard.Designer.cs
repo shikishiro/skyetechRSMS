@@ -197,6 +197,7 @@
             this.btn_ptvrequest.Text = "Patient Transfer Request";
             this.btn_ptvrequest.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_ptvrequest.UseVisualStyleBackColor = true;
+            this.btn_ptvrequest.Click += new System.EventHandler(this.btn_ptvrequest_Click);
             // 
             // panel_nav2
             // 
@@ -299,6 +300,7 @@
             this.btn_dispatchreport.Text = "Emergency and Dispatch Reports";
             this.btn_dispatchreport.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_dispatchreport.UseVisualStyleBackColor = true;
+            this.btn_dispatchreport.Click += new System.EventHandler(this.btn_dispatchreport_Click);
             // 
             // btn_emergency
             // 
